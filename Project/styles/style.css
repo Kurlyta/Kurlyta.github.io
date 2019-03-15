@@ -1,0 +1,104 @@
+@import url('components/button_gallery.css');
+@import url('request.css');
+@import url('components/footer.css');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+
+body {
+    margin: 0;
+    background: whitesmoke url("http://oboi-dlja-stola.ru/file/16039/760x0/16:9/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5-4.jpg") no-repeat;
+    position: relative;
+    background-size: 100vw 100vh;
+    background-attachment: fixed ;
+}
+
+.header {
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 20em;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 0;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+}
+
+.navigation-item {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navigation-link {
+    text-decoration-line: none;
+    padding: 10px;
+    margin: 10px;
+    border: 0 solid white;
+    width: auto;
+    font-weight: bolder;
+    color: snow;
+    font-size: 19px;
+}
+
+.button-wrapper-right {
+    top: 20vh;
+    right: 20vw;
+}
+
+.button-wrapper-left {
+    top: 20vh;
+    left: 20vw;
+}
+
+.form-input {
+    display: none;
+}
+
+.form-input.visible {
+    position: absolute;
+    top: 5em;
+    width: 100%;
+    display: block;
+}
+
+
+.text-wrapper{
+    /*position: relative;*/
+    width: 85%;
+    /*top: 5em;*/
+    margin: 0 auto 5em;
+    border-radius: 30px;
+    color: snow;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.text{
+    box-sizing: border-box;
+    padding: 2em 0;
+    margin: 0 auto;
+    width: 95%;
+    font-family: sans-serif;
+
+}
+
+li > a:hover {
+    border-bottom: 1px solid blue;
+    border-radius: 30px;
+    cursor: default;
+    font-weight: bolder;
+
+}
+
+li > a:active, :focus {
+    /*color: saddlebrown;*/
+    font-size: 19px;
+    border-bottom: 1px solid saddlebrown;
+    font-weight: bolder;
+}
