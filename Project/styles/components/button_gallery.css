@@ -19,7 +19,8 @@
     font-size: 1em;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
+    font-family: 'Dancing Script', cursive;
     width: 100%;
     height: 100%;
     font-weight: bolder;
@@ -29,7 +30,8 @@
     border-radius: 50%;
     text-align: center;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
+
 }
 
 .btn-link:hover {
@@ -52,7 +54,7 @@
     top: 0;
     left: -100%;
     transition: 0.8s ease-in-out 0.5s;
-    z-index: -1;
+    z-index: -2;
 }
 
 .btn-link:hover:after {
@@ -66,7 +68,7 @@
 
 .btn-link:active {
     /*transform: scale(1);*/
-    border: 1px solid #341b14;;
+    border: 0.05em solid #341b14;;
     outline: none;
 }
 

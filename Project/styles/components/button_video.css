@@ -22,11 +22,13 @@
     display: inline-block;
     position: relative;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
     line-height: 8em;
-    border-radius: 370px;
+    border-radius: 180em;
     box-sizing: border-box;
     overflow: hidden;
     transition: 1s;
+
 }
 
 .btn:after {

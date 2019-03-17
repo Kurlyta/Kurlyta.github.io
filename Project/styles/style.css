@@ -38,13 +38,13 @@ body {
 
 .navigation-link {
     text-decoration-line: none;
-    padding: 10px;
-    margin: 10px;
+    padding: 0.5em;
+    margin: 0.5em;
     border: 0 solid white;
     width: auto;
     font-weight: bolder;
     color: snow;
-    font-size: 19px;
+    font-size: 1.2em;
 }
 
 .button-wrapper-right {
@@ -70,11 +70,9 @@ body {
 
 
 .text-wrapper{
-    /*position: relative;*/
     width: 85%;
-    /*top: 5em;*/
     margin: 0 auto 5em;
-    border-radius: 30px;
+    border-radius: 1.872em;
     color: snow;
     background: rgba(0, 0, 0, 0.62);
 }
@@ -85,12 +83,13 @@ body {
     margin: 0 auto;
     width: 95%;
     font-family: sans-serif;
+    text-indent: 1em; /*красн строка*/
 
 }
 
 li > a:hover {
-    border-bottom: 1px solid blue;
-    border-radius: 30px;
+    border-bottom: 0.05em solid blue;
+    border-radius: 1.872em;
     cursor: default;
     font-weight: bolder;
 
@@ -98,7 +97,7 @@ li > a:hover {
 
 li > a:active, :focus {
     /*color: saddlebrown;*/
-    font-size: 19px;
-    border-bottom: 1px solid saddlebrown;
+    font-size: 1.02em;
+    border-bottom: 0.05em solid saddlebrown;
     font-weight: bolder;
 }
