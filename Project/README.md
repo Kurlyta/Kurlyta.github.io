@@ -1,1 +1,0 @@
-# Kurlyta.github.io
