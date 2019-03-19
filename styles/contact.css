@@ -1,0 +1,49 @@
+@import url('request.css');
+@import url('components/menu.css');
+
+.body {
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    background-size: cover;
+}
+
+.contact-header {
+    height: 5em;
+}
+
+.feedback {
+    width: 100vw;
+    height: 100vh;
+    top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #f5f5f5 url("../images/background-img/contact-image.jpg") no-repeat;
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    background-size: 100%;
+}
+
+.feedback-item {
+    color: white;
+    list-style: none;
+}
+
+.contact-btn {
+    width: max-content;
+}
+
+.form-input {
+    display: none;
+}
+
+.form-input.visible {
+    position: absolute;
+    top: 5em;
+    width: 100%;
+    display: block;
+}
+

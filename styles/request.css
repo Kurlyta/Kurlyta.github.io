@@ -1,0 +1,122 @@
+@import url('./components/menu.css');
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.user-wrapper {
+    height: 90%;
+    width: 45%;
+    margin: auto;
+    background: url("../images/background-img/agriculture.jpg");
+    border-radius: 1.4em;
+    border: 1px solid #928f8c;
+
+}
+
+.user {
+    height: 80%;
+    width: 90%;
+    margin: 2em auto;
+}
+
+.user-info {
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+input{
+    display: block;
+    margin-top: 1em;
+    width: 45%;
+    height: 2em;
+    border: none;
+    border-radius: 1.2em;
+    color:white;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+#message {
+    width: 100%;
+    color:#c5b9b9;
+    font-size: 1.25em;
+    border-radius: 1.2em;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+h3 {
+    text-align: center;
+    margin: 1em auto;
+}
+
+.btn {
+    letter-spacing: 0.25em;
+    color: #f7f0f0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1.2em;
+    border:1px solid #341b14;
+    text-transform: uppercase;
+    text-decoration: none;
+    font: 1em Arial, sans-serif;
+    height: 4em;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 4em;
+    box-sizing: border-box;
+    padding: 0.5em;
+    overflow: hidden;
+    transition: 1s;
+    z-index: 2;
+    margin-top:1em;
+}
+
+.non{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn:before {
+    content: "";
+    background: #7d6c5f;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 0.5s ease-in-out 0.1s;
+    z-index: 1;
+}
+.btn:after {
+    content: '';
+    background: #0c0b0a;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: -100%;
+    transition: 0.4s ease-in-out 0.2s ;
+    z-index: 1;
+
+}
+
+.btn:hover:before, .btn:hover:after {
+    left: 0;
+    z-index: 1;
+
+}
+
+.btn:hover {
+    color: #e0df09;
+    font-weight: bolder;
+    transition: 1.5s;
+    z-index: 2;
+}

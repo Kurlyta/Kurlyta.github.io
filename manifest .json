@@ -1,0 +1,26 @@
+{
+  "short_name" : "Семена",
+  "name" : "Семена",
+  "description" : "Лучшие семена",
+  "background_color" : "#FFFFFF",
+  "theme_color" : "#FFFFFF",
+  "start_url" : "/index.html",
+  "display" : "standalone",
+  "orientation" : "portrait",
+  "icons" : [
+    {
+      "src": "images/leef-manifest/leef-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }, {
+      "src": "images/leef-manifest/leef-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }, {
+      "src": "images/leef-manifest/leef-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
+
