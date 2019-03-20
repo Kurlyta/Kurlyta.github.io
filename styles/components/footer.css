@@ -58,5 +58,13 @@
   width: 2em;
   height: 2em;
   cursor: pointer;
-  padding-right: 1em;
+  padding:0 0.5em;
+}
+
+@media (max-width: 45em){
+
+  .contacts {
+    display: none;
+  }
+
 }

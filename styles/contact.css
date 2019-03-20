@@ -24,7 +24,7 @@
     text-align: center;
     font-size: 1em;
     font-family: sans-serif;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .feedback-item {
@@ -34,6 +34,10 @@
 
 .contact-btn {
     width: max-content;
+}
+
+.user-wrapper {
+    width: 85%;
 }
 
 .form-input {
@@ -46,4 +50,13 @@
     width: 100%;
     display: block;
 }
+
+@media (max-width: 50em) {
+    .main {
+        margin-top: 6em;
+
+    }
+}
+
+
 
