@@ -48,14 +48,25 @@ body {
 }
 
 .button-wrapper-right {
+    display: inline-block;
     top: 20vh;
     right: 20vw;
 }
 
 .button-wrapper-left {
+    display: inline-block;
     top: 20vh;
     left: 20vw;
 }
+
+.button-wrapper-right.show {
+    display: none;
+}
+
+.button-wrapper-left.show {
+    display: none;
+}
+
 
 .form-input {
     display: none;
@@ -100,4 +111,21 @@ li > a:active, :focus {
     font-size: 1.02em;
     border-bottom: 0.05em solid saddlebrown;
     font-weight: bolder;
+}
+
+@media (max-width: 35em) {
+    .button-wrapper-right {
+        top: 20vh;
+        right: 5vw;
+    }
+
+    .button-wrapper-left {
+        top: 20vh;
+        left: 5vw;
+    }
+
+    .user-wrapper {
+        width: 85%;
+        z-index: 100;
+    }
 }
